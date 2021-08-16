@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+        <!--
+            本記事ではバージョン 1.1.0-alpha03 を利用している
+        -->
+        <androidPackage spec="androidx.security:security-crypto:1.1.0-alpha03">
+            <androidSdkPackageIds>
+                <!--
+                    Google の Maven リポジトリからインストールするため、
+                    extra-google-m2repository を指定する
+                -->
+                <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+            </androidSdkPackageIds>
+        </androidPackage>
+    </androidPackages>
+</dependencies>
